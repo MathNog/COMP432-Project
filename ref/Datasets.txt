@@ -1,0 +1,12 @@
+Datasets:
+
+
+Taken from: https://www.kaggle.com/landlord/usa-monthly-retail-trade
+	SeriesReport-Not Seasonally Adjusted Sales - Monthly (Millions of Dollars).csv
+	SeriesReport-Seasonally Adjusted Sales - Monthly (Millions of Dollars).csv
+
+
+
+Bibliography:
+	https://www.machinelearningplus.com/time-series/time-series-analysis-python/
+	https://towardsdatascience.com/time-series-analysis-in-python-an-introduction-70d5a5b1d52a
