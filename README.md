@@ -18,6 +18,9 @@ The main method for time series forecast will be different **Neural Networks**.
 This repository is divided into differente directories.
 
  - code: directory with the jupyter notebooks created for the project
+  - ARIMA.ipynb: jupyter notebook that implements and ARIMA and SARIMA models for time series predictions
  - ref: bibliography and references used for the project
  - img: images created during the project
  - data: datasets collected and used as input for all methods implemented
+
+

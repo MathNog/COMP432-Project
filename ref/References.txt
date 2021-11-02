@@ -10,3 +10,4 @@ Taken from: https://www.kaggle.com/landlord/usa-monthly-retail-trade
 Bibliography:
 	https://www.machinelearningplus.com/time-series/time-series-analysis-python/
 	https://towardsdatascience.com/time-series-analysis-in-python-an-introduction-70d5a5b1d52a
+	https://towardsdatascience.com/arima-model-in-python-7bfc7fb792f9
