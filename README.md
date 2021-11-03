@@ -24,9 +24,17 @@ Ohter methods that may be used are **GARCH** Models and **Prophet**.
 This repository is divided into differente directories.
 
  - code: directory with the jupyter notebooks created for the project
-  - ARIMA.ipynb: jupyter notebook that implements and ARIMA and SARIMA models for time series predictions
+  - SeriesAnalysis.ipynb: jupyter notebook for time series analysis that are necessary for each model implemented in other notebooks. **This must be the first notebook to be looked at!**
+  - ARIMA.ipynb: jupyter notebook that implements ARIMA model for time series predictions
+  - GARCH.ipynb: jupyter notebook that implements GARCH model for time series predictions
  - ref: bibliography and references used for the project
  - img: images created during the project
  - data: datasets collected and used as input for all methods implemented
 
+### Packages needed
 
+ - pandas
+ - matplotlib
+ - numpy
+ - statsmodels (various packages)
+ - arch
