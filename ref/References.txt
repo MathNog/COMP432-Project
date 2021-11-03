@@ -1,13 +1,19 @@
 Datasets:
-
-
-Taken from: https://www.kaggle.com/landlord/usa-monthly-retail-trade
-	SeriesReport-Not Seasonally Adjusted Sales - Monthly (Millions of Dollars).csv
-	SeriesReport-Seasonally Adjusted Sales - Monthly (Millions of Dollars).csv
+	All datasets were taken from Yahoo Finance
 
 
 
-Bibliography:
+Internet:
+	ARIMA
 	https://www.machinelearningplus.com/time-series/time-series-analysis-python/
 	https://towardsdatascience.com/time-series-analysis-in-python-an-introduction-70d5a5b1d52a
 	https://towardsdatascience.com/arima-model-in-python-7bfc7fb792f9
+
+	GARCH
+
+	
+	Neural Networks
+	https://www.analyticsvidhya.com/blog/2021/06/time-series-analysis-recurrence-neural-network-in-python/
+	https://visualstudiomagazine.com/articles/2018/02/02/neural-network-time-series.aspx
+	https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
+	https://towardsdatascience.com/a-quick-deep-learning-recipe-time-series-forecasting-with-keras-in-python-f759923ba64
