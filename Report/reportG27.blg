@@ -1,51 +1,48 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: reportG27.aux
-White space in argument---line 37 of file reportG27.aux
- : \bibstyle{cvpr\protect
- :                        \unhbox \voidb@x \kern .06em\vbox {\hrule width.3em}bibstyle}
-I'm skipping whatever remains of this command
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+The style file: cvpr_bibstyle.bst
 Reallocating 'name_of_file' (item size: 1) to 13 items.
-I found no style file---while reading file reportG27.aux
+Database file #1: bibliography.bib
 You've used 3 entries,
-            0 wiz_defined-function locations,
-            87 strings with 558 characters,
-and the built_in function-call counts, 0 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 0
-:= -- 0
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            2120 wiz_defined-function locations,
+            517 strings with 4046 characters,
+and the built_in function-call counts, 777 in all, are:
+= -- 72
+> -- 27
+< -- 1
++ -- 11
+- -- 8
+* -- 46
+:= -- 139
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 0
-format.name$ -- 0
-if$ -- 0
+cite$ -- 3
+duplicate$ -- 35
+empty$ -- 70
+format.name$ -- 8
+if$ -- 159
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 0
-num.names$ -- 0
-pop$ -- 0
-preamble$ -- 0
-purify$ -- 0
+int.to.str$ -- 3
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 18
+preamble$ -- 1
+purify$ -- 10
 quote$ -- 0
-skip$ -- 0
+skip$ -- 21
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 34
+swap$ -- 4
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 8
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 0
-(There were 2 error messages)
+while$ -- 8
+width$ -- 4
+write$ -- 34

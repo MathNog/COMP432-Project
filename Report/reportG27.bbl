@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{bishop2006pattern}
+Christopher~M Bishop.
+\newblock {\em Pattern Recognition and Machine Learning}.
+\newblock Springer, 2006.
+
+\bibitem{taylor2018forecasting}
+Sean~J Taylor and Benjamin Letham.
+\newblock Forecasting at scale.
+\newblock {\em The American Statistician}, 72(1):37--45, 2018.
+
+\bibitem{tsay2005analysis}
+Ruey~S Tsay.
+\newblock {\em Analysis of financial time series}, volume 543.
+\newblock John wiley \& sons, 2005.
+
+\end{thebibliography}

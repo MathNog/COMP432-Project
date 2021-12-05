@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.26)  5 DEC 2021 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.26)  5 DEC 2021 16:45
 entering extended mode
 **./reportG27.tex
 (reportG27.tex
@@ -388,21 +388,13 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
 (C:\Users\matno\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-
-LaTeX Warning: Citation `tsay2005analysis' on page 1 undefined on input line 51
-.
-
-
-LaTeX Warning: Citation `tsay2005analysis' on page 1 undefined on input line 51
-.
-
-<../img/SeriesAnalysis/American_Serie.png, id=4, 391.4625pt x 292.09125pt>
+<../img/SeriesAnalysis/American_Serie.png, id=6, 391.4625pt x 292.09125pt>
 File: ../img/SeriesAnalysis/American_Serie.png Graphic file (type png)
 <use ../img/SeriesAnalysis/American_Serie.png>
 Package pdftex.def Info: ../img/SeriesAnalysis/American_Serie.png  used on inpu
 t line 55.
 (pdftex.def)             Requested size: 106.71045pt x 79.6189pt.
-<../img/SeriesAnalysis/American_diffSerie.png, id=6, 431.6125pt x 292.09125pt>
+<../img/SeriesAnalysis/American_diffSerie.png, id=8, 431.6125pt x 292.09125pt>
 File: ../img/SeriesAnalysis/American_diffSerie.png Graphic file (type png)
 <use ../img/SeriesAnalysis/American_diffSerie.png>
 Package pdftex.def Info: ../img/SeriesAnalysis/American_diffSerie.png  used on 
@@ -410,6 +402,7 @@ input line 56.
 (pdftex.def)             Requested size: 106.71045pt x 72.21591pt.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 6
 9.
+
 (C:\Users\matno\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -432,17 +425,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-
-LaTeX Warning: Citation `tsay2005analysis' on page 2 undefined on input line 81
-.
-
-<../img/SeriesAnalysis/ACF_AmericanDiff.png, id=28, 373.395pt x 264.99pt>
+<../img/SeriesAnalysis/ACF_AmericanDiff.png, id=32, 373.395pt x 264.99pt>
 File: ../img/SeriesAnalysis/ACF_AmericanDiff.png Graphic file (type png)
 <use ../img/SeriesAnalysis/ACF_AmericanDiff.png>
 Package pdftex.def Info: ../img/SeriesAnalysis/ACF_AmericanDiff.png  used on in
 put line 91.
 (pdftex.def)             Requested size: 106.71045pt x 75.72914pt.
-<../img/SeriesAnalysis/PACF_AmericanDiff.png, id=29, 373.395pt x 264.99pt>
+<../img/SeriesAnalysis/PACF_AmericanDiff.png, id=33, 373.395pt x 264.99pt>
 File: ../img/SeriesAnalysis/PACF_AmericanDiff.png Graphic file (type png)
 <use ../img/SeriesAnalysis/PACF_AmericanDiff.png>
 Package pdftex.def Info: ../img/SeriesAnalysis/PACF_AmericanDiff.png  used on i
@@ -452,10 +441,6 @@ nput line 92.
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
-
-
-LaTeX Warning: Citation `bishop2006pattern' on page 2 undefined on input line 1
-05.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
@@ -487,76 +472,474 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-
-LaTeX Warning: Citation `taylor2018forecasting' on page 2 undefined on input li
-ne 126.
-
 [2 <../img/SeriesAnalysis/ACF_AmericanDiff.png> <../img/SeriesAnalysis/PACF_Ame
 ricanDiff.png>]
-
-LaTeX Warning: Citation `taylor2018forecasting' on page 3 undefined on input li
-ne 132.
-
-
-LaTeX Warning: Citation `taylor2018forecasting' on page 3 undefined on input li
-ne 148.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
+
+ []
+
+[3] (reportG27.bbl (reportG27.brf)
+\tf@brf=\write3
+\openout3 = `reportG27.brf'.
+
+)
+<../img/ARIMA/american_diff_training.png, id=73, 409.53pt x 314.17375pt>
+File: ../img/ARIMA/american_diff_training.png Graphic file (type png)
+<use ../img/ARIMA/american_diff_training.png>
+Package pdftex.def Info: ../img/ARIMA/american_diff_training.png  used on input
+ line 316.
+(pdftex.def)             Requested size: 106.71045pt x 81.86061pt.
+<../img/GARCH/american_diff_training.png, id=74, 409.53pt x 314.17375pt>
+File: ../img/GARCH/american_diff_training.png Graphic file (type png)
+<use ../img/GARCH/american_diff_training.png>
+Package pdftex.def Info: ../img/GARCH/american_diff_training.png  used on input
+ line 317.
+(pdftex.def)             Requested size: 106.71045pt x 81.86061pt.
+<../img/RandomForest/american_diff_training.png, id=75, 395.4775pt x 314.17375p
+t>
+File: ../img/RandomForest/american_diff_training.png Graphic file (type png)
+<use ../img/RandomForest/american_diff_training.png>
+Package pdftex.def Info: ../img/RandomForest/american_diff_training.png  used o
+n input line 318.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+<../img/SVM/american_diff_training.png, id=76, 395.4775pt x 314.17375pt>
+File: ../img/SVM/american_diff_training.png Graphic file (type png)
+<use ../img/SVM/american_diff_training.png>
+Package pdftex.def Info: ../img/SVM/american_diff_training.png  used on input l
+ine 319.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+<../img/MLP/american_diff_training.png, id=77, 395.4775pt x 314.17375pt>
+File: ../img/MLP/american_diff_training.png Graphic file (type png)
+<use ../img/MLP/american_diff_training.png>
+Package pdftex.def Info: ../img/MLP/american_diff_training.png  used on input l
+ine 320.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+<../img/Prophet/american_diff_training.png, id=78, 395.4775pt x 314.17375pt>
+File: ../img/Prophet/american_diff_training.png Graphic file (type png)
+<use ../img/Prophet/american_diff_training.png>
+Package pdftex.def Info: ../img/Prophet/american_diff_training.png  used on inp
+ut line 322.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<../img/ARIMA/american_diff_for.png, id=79, 423.5825pt x 314.17375pt>
+File: ../img/ARIMA/american_diff_for.png Graphic file (type png)
+<use ../img/ARIMA/american_diff_for.png>
+Package pdftex.def Info: ../img/ARIMA/american_diff_for.png  used on input line
+ 329.
+(pdftex.def)             Requested size: 106.71045pt x 79.14726pt.
+<../img/GARCH/american_diff_for.png, id=80, 423.5825pt x 314.17375pt>
+File: ../img/GARCH/american_diff_for.png Graphic file (type png)
+<use ../img/GARCH/american_diff_for.png>
+Package pdftex.def Info: ../img/GARCH/american_diff_for.png  used on input line
+ 330.
+(pdftex.def)             Requested size: 106.71045pt x 79.14726pt.
+<../img/RandomForest/american_diff_for.png, id=81, 438.63875pt x 314.17375pt>
+File: ../img/RandomForest/american_diff_for.png Graphic file (type png)
+<use ../img/RandomForest/american_diff_for.png>
+Package pdftex.def Info: ../img/RandomForest/american_diff_for.png  used on inp
+ut line 331.
+(pdftex.def)             Requested size: 106.71045pt x 76.42912pt.
+<../img/SVM/american_diff_for.png, id=82, 438.63875pt x 314.17375pt>
+File: ../img/SVM/american_diff_for.png Graphic file (type png)
+<use ../img/SVM/american_diff_for.png>
+Package pdftex.def Info: ../img/SVM/american_diff_for.png  used on input line 3
+32.
+(pdftex.def)             Requested size: 106.71045pt x 76.42912pt.
+<../img/MLP/american_diff_for.png, id=83, 489.83pt x 314.17375pt>
+File: ../img/MLP/american_diff_for.png Graphic file (type png)
+<use ../img/MLP/american_diff_for.png>
+Package pdftex.def Info: ../img/MLP/american_diff_for.png  used on input line 3
+33.
+(pdftex.def)             Requested size: 106.71045pt x 68.44249pt.
+<../img/Prophet/american_diff_for.png, id=84, 401.5pt x 314.17375pt>
+File: ../img/Prophet/american_diff_for.png Graphic file (type png)
+<use ../img/Prophet/american_diff_for.png>
+Package pdftex.def Info: ../img/Prophet/american_diff_for.png  used on input li
+ne 335.
+(pdftex.def)             Requested size: 106.71045pt x 83.50012pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<../img/RandomForest/american_training.png, id=85, 491.8375pt x 314.17375pt>
+File: ../img/RandomForest/american_training.png Graphic file (type png)
+<use ../img/RandomForest/american_training.png>
+Package pdftex.def Info: ../img/RandomForest/american_training.png  used on inp
+ut line 342.
+(pdftex.def)             Requested size: 106.71045pt x 68.15965pt.
+<../img/SVM/american_training.png, id=86, 491.8375pt x 314.17375pt>
+File: ../img/SVM/american_training.png Graphic file (type png)
+<use ../img/SVM/american_training.png>
+Package pdftex.def Info: ../img/SVM/american_training.png  used on input line 3
+43.
+(pdftex.def)             Requested size: 106.71045pt x 68.15965pt.
+<../img/MLP/american_training.png, id=87, 491.8375pt x 314.17375pt>
+File: ../img/MLP/american_training.png Graphic file (type png)
+<use ../img/MLP/american_training.png>
+Package pdftex.def Info: ../img/MLP/american_training.png  used on input line 3
+44.
+(pdftex.def)             Requested size: 106.71045pt x 68.15965pt.
+<../img/Prophet/american_training.png, id=88, 493.845pt x 314.17375pt>
+File: ../img/Prophet/american_training.png Graphic file (type png)
+<use ../img/Prophet/american_training.png>
+Package pdftex.def Info: ../img/Prophet/american_training.png  used on input li
+ne 346.
+(pdftex.def)             Requested size: 106.71045pt x 67.8864pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<../img/RandomForest/american_for.png, id=89, 579.16376pt x 314.17375pt>
+File: ../img/RandomForest/american_for.png Graphic file (type png)
+<use ../img/RandomForest/american_for.png>
+Package pdftex.def Info: ../img/RandomForest/american_for.png  used on input li
+ne 353.
+(pdftex.def)             Requested size: 106.71045pt x 57.88632pt.
+<../img/SVM/american_for.png, id=90, 579.16376pt x 314.17375pt>
+File: ../img/SVM/american_for.png Graphic file (type png)
+<use ../img/SVM/american_for.png>
+Package pdftex.def Info: ../img/SVM/american_for.png  used on input line 354.
+(pdftex.def)             Requested size: 106.71045pt x 57.88632pt.
+<../img/MLP/american_for.png, id=91, 489.83pt x 314.17375pt>
+File: ../img/MLP/american_for.png Graphic file (type png)
+<use ../img/MLP/american_for.png>
+Package pdftex.def Info: ../img/MLP/american_for.png  used on input line 355.
+(pdftex.def)             Requested size: 106.71045pt x 68.44249pt.
+<../img/Prophet/american_for.png, id=92, 499.8675pt x 314.17375pt>
+File: ../img/Prophet/american_for.png Graphic file (type png)
+<use ../img/Prophet/american_for.png>
+Package pdftex.def Info: ../img/Prophet/american_for.png  used on input line 35
+7.
+(pdftex.def)             Requested size: 106.71045pt x 67.06664pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<../img/ARIMA/usd_cad_diff_training.png, id=93, 416.55624pt x 314.17375pt>
+File: ../img/ARIMA/usd_cad_diff_training.png Graphic file (type png)
+<use ../img/ARIMA/usd_cad_diff_training.png>
+Package pdftex.def Info: ../img/ARIMA/usd_cad_diff_training.png  used on input 
+line 367.
+(pdftex.def)             Requested size: 106.71045pt x 80.47997pt.
+<../img/GARCH/usd_cad_diff_training.png, id=94, 416.55624pt x 314.17375pt>
+File: ../img/GARCH/usd_cad_diff_training.png Graphic file (type png)
+<use ../img/GARCH/usd_cad_diff_training.png>
+Package pdftex.def Info: ../img/GARCH/usd_cad_diff_training.png  used on input 
+line 368.
+(pdftex.def)             Requested size: 106.71045pt x 80.47997pt.
+<../img/RandomForest/usd_cad_diff_training.png, id=95, 395.4775pt x 314.17375pt
+>
+File: ../img/RandomForest/usd_cad_diff_training.png Graphic file (type png)
+<use ../img/RandomForest/usd_cad_diff_training.png>
+Package pdftex.def Info: ../img/RandomForest/usd_cad_diff_training.png  used on
+ input line 369.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+<../img/SVM/usd_cad_diff_training.png, id=96, 395.4775pt x 314.17375pt>
+File: ../img/SVM/usd_cad_diff_training.png Graphic file (type png)
+<use ../img/SVM/usd_cad_diff_training.png>
+Package pdftex.def Info: ../img/SVM/usd_cad_diff_training.png  used on input li
+ne 370.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+<../img/MLP/usd_cad_diff_training.png, id=97, 395.4775pt x 314.17375pt>
+File: ../img/MLP/usd_cad_diff_training.png Graphic file (type png)
+<use ../img/MLP/usd_cad_diff_training.png>
+Package pdftex.def Info: ../img/MLP/usd_cad_diff_training.png  used on input li
+ne 371.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+<../img/Prophet/usd_cad_diff_training.png, id=98, 395.4775pt x 314.17375pt>
+File: ../img/Prophet/usd_cad_diff_training.png Graphic file (type png)
+<use ../img/Prophet/usd_cad_diff_training.png>
+Package pdftex.def Info: ../img/Prophet/usd_cad_diff_training.png  used on inpu
+t line 373.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<../img/ARIMA/usd_cad_diff_for.png, id=99, 436.63126pt x 314.17375pt>
+File: ../img/ARIMA/usd_cad_diff_for.png Graphic file (type png)
+<use ../img/ARIMA/usd_cad_diff_for.png>
+Package pdftex.def Info: ../img/ARIMA/usd_cad_diff_for.png  used on input line 
+380.
+(pdftex.def)             Requested size: 106.71045pt x 76.77908pt.
+<../img/GARCH/usd_cad_diff_for.png, id=100, 436.63126pt x 314.17375pt>
+File: ../img/GARCH/usd_cad_diff_for.png Graphic file (type png)
+<use ../img/GARCH/usd_cad_diff_for.png>
+Package pdftex.def Info: ../img/GARCH/usd_cad_diff_for.png  used on input line 
+381.
+(pdftex.def)             Requested size: 106.71045pt x 76.77908pt.
+<../img/RandomForest/usd_cad_diff_for.png, id=101, 438.63875pt x 314.17375pt>
+File: ../img/RandomForest/usd_cad_diff_for.png Graphic file (type png)
+<use ../img/RandomForest/usd_cad_diff_for.png>
+Package pdftex.def Info: ../img/RandomForest/usd_cad_diff_for.png  used on inpu
+t line 382.
+(pdftex.def)             Requested size: 106.71045pt x 76.42912pt.
+<../img/SVM/usd_cad_diff_for.png, id=102, 438.63875pt x 314.17375pt>
+File: ../img/SVM/usd_cad_diff_for.png Graphic file (type png)
+<use ../img/SVM/usd_cad_diff_for.png>
+Package pdftex.def Info: ../img/SVM/usd_cad_diff_for.png  used on input line 38
+3.
+(pdftex.def)             Requested size: 106.71045pt x 76.42912pt.
+<../img/MLP/usd_cad_diff_for.png, id=103, 486.81876pt x 314.17375pt>
+File: ../img/MLP/usd_cad_diff_for.png Graphic file (type png)
+<use ../img/MLP/usd_cad_diff_for.png>
+Package pdftex.def Info: ../img/MLP/usd_cad_diff_for.png  used on input line 38
+4.
+(pdftex.def)             Requested size: 106.71045pt x 68.86435pt.
+<../img/Prophet/usd_cad_diff_for.png, id=104, 401.5pt x 314.17375pt>
+File: ../img/Prophet/usd_cad_diff_for.png Graphic file (type png)
+<use ../img/Prophet/usd_cad_diff_for.png>
+Package pdftex.def Info: ../img/Prophet/usd_cad_diff_for.png  used on input lin
+e 386.
+(pdftex.def)             Requested size: 106.71045pt x 83.50012pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(reportG27.bbl) [3] [4
+<../img/RandomForest/usd_cad_training.png, id=105, 488.82625pt x 314.17375pt>
+File: ../img/RandomForest/usd_cad_training.png Graphic file (type png)
+<use ../img/RandomForest/usd_cad_training.png>
+Package pdftex.def Info: ../img/RandomForest/usd_cad_training.png  used on inpu
+t line 393.
+(pdftex.def)             Requested size: 106.71045pt x 68.58151pt.
+<../img/SVM/usd_cad_training.png, id=106, 488.82625pt x 314.17375pt>
+File: ../img/SVM/usd_cad_training.png Graphic file (type png)
+<use ../img/SVM/usd_cad_training.png>
+Package pdftex.def Info: ../img/SVM/usd_cad_training.png  used on input line 39
+4.
+(pdftex.def)             Requested size: 106.71045pt x 68.58151pt.
+<../img/MLP/usd_cad_training.png, id=107, 488.82625pt x 314.17375pt>
+File: ../img/MLP/usd_cad_training.png Graphic file (type png)
+<use ../img/MLP/usd_cad_training.png>
+Package pdftex.def Info: ../img/MLP/usd_cad_training.png  used on input line 39
+5.
+(pdftex.def)             Requested size: 106.71045pt x 68.58151pt.
+<../img/Prophet/usd_cad_training.png, id=108, 490.83376pt x 314.17375pt>
+File: ../img/Prophet/usd_cad_training.png Graphic file (type png)
+<use ../img/Prophet/usd_cad_training.png>
+Package pdftex.def Info: ../img/Prophet/usd_cad_training.png  used on input lin
+e 397.
+(pdftex.def)             Requested size: 106.71045pt x 68.30347pt.
 
-] (reportG27.aux)
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: There were undefined references.
+<../img/RandomForest/usd_cad_for.png, id=109, 579.16376pt x 314.17375pt>
+File: ../img/RandomForest/usd_cad_for.png Graphic file (type png)
+<use ../img/RandomForest/usd_cad_for.png>
+Package pdftex.def Info: ../img/RandomForest/usd_cad_for.png  used on input lin
+e 404.
+(pdftex.def)             Requested size: 106.71045pt x 57.88632pt.
+<../img/SVM/usd_cad_for.png, id=110, 579.16376pt x 314.17375pt>
+File: ../img/SVM/usd_cad_for.png Graphic file (type png)
+<use ../img/SVM/usd_cad_for.png>
+Package pdftex.def Info: ../img/SVM/usd_cad_for.png  used on input line 405.
+(pdftex.def)             Requested size: 106.71045pt x 57.88632pt.
+<../img/MLP/usd_cad_for.png, id=111, 486.81876pt x 314.17375pt>
+File: ../img/MLP/usd_cad_for.png Graphic file (type png)
+<use ../img/MLP/usd_cad_for.png>
+Package pdftex.def Info: ../img/MLP/usd_cad_for.png  used on input line 406.
+(pdftex.def)             Requested size: 106.71045pt x 68.86435pt.
+<../img/Prophet/usd_cad_for.png, id=112, 496.85625pt x 314.17375pt>
+File: ../img/Prophet/usd_cad_for.png Graphic file (type png)
+<use ../img/Prophet/usd_cad_for.png>
+Package pdftex.def Info: ../img/Prophet/usd_cad_for.png  used on input line 408
+.
+(pdftex.def)             Requested size: 106.71045pt x 67.47412pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../img/ARIMA/usd_brl_diff_training.png, id=113, 409.53pt x 314.17375pt>
+File: ../img/ARIMA/usd_brl_diff_training.png Graphic file (type png)
+<use ../img/ARIMA/usd_brl_diff_training.png>
+Package pdftex.def Info: ../img/ARIMA/usd_brl_diff_training.png  used on input 
+line 417.
+(pdftex.def)             Requested size: 106.71045pt x 81.86061pt.
+<../img/GARCH/usd_brl_diff_training.png, id=114, 409.53pt x 314.17375pt>
+File: ../img/GARCH/usd_brl_diff_training.png Graphic file (type png)
+<use ../img/GARCH/usd_brl_diff_training.png>
+Package pdftex.def Info: ../img/GARCH/usd_brl_diff_training.png  used on input 
+line 418.
+(pdftex.def)             Requested size: 106.71045pt x 81.86061pt.
+<../img/RandomForest/usd_brl_diff_training.png, id=115, 395.4775pt x 314.17375p
+t>
+File: ../img/RandomForest/usd_brl_diff_training.png Graphic file (type png)
+<use ../img/RandomForest/usd_brl_diff_training.png>
+Package pdftex.def Info: ../img/RandomForest/usd_brl_diff_training.png  used on
+ input line 419.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+<../img/SVM/usd_brl_diff_training.png, id=116, 395.4775pt x 314.17375pt>
+File: ../img/SVM/usd_brl_diff_training.png Graphic file (type png)
+<use ../img/SVM/usd_brl_diff_training.png>
+Package pdftex.def Info: ../img/SVM/usd_brl_diff_training.png  used on input li
+ne 420.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+<../img/MLP/usd_brl_diff_training.png, id=117, 395.4775pt x 314.17375pt>
+File: ../img/MLP/usd_brl_diff_training.png Graphic file (type png)
+<use ../img/MLP/usd_brl_diff_training.png>
+Package pdftex.def Info: ../img/MLP/usd_brl_diff_training.png  used on input li
+ne 421.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+<../img/Prophet/usd_brl_diff_training.png, id=118, 395.4775pt x 314.17375pt>
+File: ../img/Prophet/usd_brl_diff_training.png Graphic file (type png)
+<use ../img/Prophet/usd_brl_diff_training.png>
+Package pdftex.def Info: ../img/Prophet/usd_brl_diff_training.png  used on inpu
+t line 423.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../img/ARIMA/usd_brl_diff_for.png, id=119, 421.575pt x 314.17375pt>
+File: ../img/ARIMA/usd_brl_diff_for.png Graphic file (type png)
+<use ../img/ARIMA/usd_brl_diff_for.png>
+Package pdftex.def Info: ../img/ARIMA/usd_brl_diff_for.png  used on input line 
+430.
+(pdftex.def)             Requested size: 106.71045pt x 79.5212pt.
+<../img/GARCH/usd_brl_diff_for.png, id=120, 421.575pt x 314.17375pt>
+File: ../img/GARCH/usd_brl_diff_for.png Graphic file (type png)
+<use ../img/GARCH/usd_brl_diff_for.png>
+Package pdftex.def Info: ../img/GARCH/usd_brl_diff_for.png  used on input line 
+431.
+(pdftex.def)             Requested size: 106.71045pt x 79.5212pt.
+<../img/RandomForest/usd_brl_diff_for.png, id=121, 436.63126pt x 314.17375pt>
+File: ../img/RandomForest/usd_brl_diff_for.png Graphic file (type png)
+<use ../img/RandomForest/usd_brl_diff_for.png>
+Package pdftex.def Info: ../img/RandomForest/usd_brl_diff_for.png  used on inpu
+t line 432.
+(pdftex.def)             Requested size: 106.71045pt x 76.77908pt.
+<../img/SVM/usd_brl_diff_for.png, id=122, 429.605pt x 314.17375pt>
+File: ../img/SVM/usd_brl_diff_for.png Graphic file (type png)
+<use ../img/SVM/usd_brl_diff_for.png>
+Package pdftex.def Info: ../img/SVM/usd_brl_diff_for.png  used on input line 43
+3.
+(pdftex.def)             Requested size: 106.71045pt x 78.03508pt.
+<../img/MLP/usd_brl_diff_for.png, id=123, 482.80376pt x 314.17375pt>
+File: ../img/MLP/usd_brl_diff_for.png Graphic file (type png)
+<use ../img/MLP/usd_brl_diff_for.png>
+Package pdftex.def Info: ../img/MLP/usd_brl_diff_for.png  used on input line 43
+4.
+(pdftex.def)             Requested size: 106.71045pt x 69.43962pt.
+<../img/Prophet/usd_brl_diff_for.png, id=124, 395.4775pt x 314.17375pt>
+File: ../img/Prophet/usd_brl_diff_for.png Graphic file (type png)
+<use ../img/Prophet/usd_brl_diff_for.png>
+Package pdftex.def Info: ../img/Prophet/usd_brl_diff_for.png  used on input lin
+e 436.
+(pdftex.def)             Requested size: 106.71045pt x 84.77051pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../img/RandomForest/usd_brl_training.png, id=125, 484.81125pt x 314.17375pt>
+File: ../img/RandomForest/usd_brl_training.png Graphic file (type png)
+<use ../img/RandomForest/usd_brl_training.png>
+Package pdftex.def Info: ../img/RandomForest/usd_brl_training.png  used on inpu
+t line 443.
+(pdftex.def)             Requested size: 106.71045pt x 69.152pt.
+<../img/SVM/usd_brl_training.png, id=126, 484.81125pt x 314.17375pt>
+File: ../img/SVM/usd_brl_training.png Graphic file (type png)
+<use ../img/SVM/usd_brl_training.png>
+Package pdftex.def Info: ../img/SVM/usd_brl_training.png  used on input line 44
+4.
+(pdftex.def)             Requested size: 106.71045pt x 69.152pt.
+<../img/MLP/usd_brl_training.png, id=127, 484.81125pt x 314.17375pt>
+File: ../img/MLP/usd_brl_training.png Graphic file (type png)
+<use ../img/MLP/usd_brl_training.png>
+Package pdftex.def Info: ../img/MLP/usd_brl_training.png  used on input line 44
+5.
+(pdftex.def)             Requested size: 106.71045pt x 69.152pt.
+<../img/Prophet/usd_brl_training.png, id=128, 486.81876pt x 314.17375pt>
+File: ../img/Prophet/usd_brl_training.png Graphic file (type png)
+<use ../img/Prophet/usd_brl_training.png>
+Package pdftex.def Info: ../img/Prophet/usd_brl_training.png  used on input lin
+e 447.
+(pdftex.def)             Requested size: 106.71045pt x 68.86435pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<../img/RandomForest/usd_brl_for.png, id=129, 575.14874pt x 314.17375pt>
+File: ../img/RandomForest/usd_brl_for.png Graphic file (type png)
+<use ../img/RandomForest/usd_brl_for.png>
+Package pdftex.def Info: ../img/RandomForest/usd_brl_for.png  used on input lin
+e 454.
+(pdftex.def)             Requested size: 106.71045pt x 58.28902pt.
+<../img/SVM/usd_brl_for.png, id=130, 575.14874pt x 314.17375pt>
+File: ../img/SVM/usd_brl_for.png Graphic file (type png)
+<use ../img/SVM/usd_brl_for.png>
+Package pdftex.def Info: ../img/SVM/usd_brl_for.png  used on input line 455.
+(pdftex.def)             Requested size: 106.71045pt x 58.28902pt.
+<../img/MLP/usd_brl_for.png, id=131, 482.80376pt x 314.17375pt>
+File: ../img/MLP/usd_brl_for.png Graphic file (type png)
+<use ../img/MLP/usd_brl_for.png>
+Package pdftex.def Info: ../img/MLP/usd_brl_for.png  used on input line 456.
+(pdftex.def)             Requested size: 106.71045pt x 69.43962pt.
+<../img/Prophet/usd_brl_for.png, id=132, 491.8375pt x 314.17375pt>
+File: ../img/Prophet/usd_brl_for.png Graphic file (type png)
+<use ../img/Prophet/usd_brl_for.png>
+Package pdftex.def Info: ../img/Prophet/usd_brl_for.png  used on input line 458
+.
+(pdftex.def)             Requested size: 106.71045pt x 68.15965pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4] [5 <../img/ARIMA/american_diff_training.png> <../img/GARCH/american_diff_tr
+aining.png> <../img/RandomForest/american_diff_training.png> <../img/SVM/americ
+an_diff_training.png> <../img/MLP/american_diff_training.png> <../img/Prophet/a
+merican_diff_training.png> <../img/ARIMA/american_diff_for.png> <../img/GARCH/a
+merican_diff_for.png> <../img/RandomForest/american_diff_for.png> <../img/SVM/a
+merican_diff_for.png> <../img/MLP/american_diff_for.png> <../img/Prophet/americ
+an_diff_for.png> <../img/RandomForest/american_training.png> <../img/SVM/americ
+an_training.png> <../img/MLP/american_training.png> <../img/Prophet/american_tr
+aining.png> <../img/RandomForest/american_for.png> <../img/SVM/american_for.png
+> <../img/MLP/american_for.png> <../img/Prophet/american_for.png> <../img/ARIMA
+/usd_cad_diff_training.png> <../img/GARCH/usd_cad_diff_training.png> <../img/Ra
+ndomForest/usd_cad_diff_training.png> <../img/SVM/usd_cad_diff_training.png> <.
+./img/MLP/usd_cad_diff_training.png> <../img/Prophet/usd_cad_diff_training.png>
+] [6 <../img/ARIMA/usd_cad_diff_for.png> <../img/GARCH/usd_cad_diff_for.png> <.
+./img/RandomForest/usd_cad_diff_for.png> <../img/SVM/usd_cad_diff_for.png> <../
+img/MLP/usd_cad_diff_for.png> <../img/Prophet/usd_cad_diff_for.png> <../img/Ran
+domForest/usd_cad_training.png> <../img/SVM/usd_cad_training.png> <../img/MLP/u
+sd_cad_training.png> <../img/Prophet/usd_cad_training.png> <../img/RandomForest
+/usd_cad_for.png> <../img/SVM/usd_cad_for.png> <../img/MLP/usd_cad_for.png> <..
+/img/Prophet/usd_cad_for.png> <../img/ARIMA/usd_brl_diff_training.png> <../img/
+GARCH/usd_brl_diff_training.png> <../img/RandomForest/usd_brl_diff_training.png
+> <../img/SVM/usd_brl_diff_training.png> <../img/MLP/usd_brl_diff_training.png>
+ <../img/Prophet/usd_brl_diff_training.png> <../img/ARIMA/usd_brl_diff_for.png>
+ <../img/GARCH/usd_brl_diff_for.png> <../img/RandomForest/usd_brl_diff_for.png>
+ <../img/SVM/usd_brl_diff_for.png> <../img/MLP/usd_brl_diff_for.png> <../img/Pr
+ophet/usd_brl_diff_for.png>] [7
+
+ <../img/RandomForest/usd_brl_training.png> <../img/SVM/usd_brl_training.png> <
+../img/MLP/usd_brl_training.png> <../img/Prophet/usd_brl_training.png> <../img/
+RandomForest/usd_brl_for.png> <../img/SVM/usd_brl_for.png> <../img/MLP/usd_brl_
+for.png> <../img/Prophet/usd_brl_for.png>]
+(reportG27.aux)
+Package rerunfilecheck Info: File `reportG27.brf' has not changed.
+(rerunfilecheck)             Checksum: EC46129445F7C5DFB2760ECC3F8359F8;361.
  ) 
 Here is how much of TeX's memory you used:
- 9610 strings out of 478927
- 143575 string characters out of 2852534
- 480056 words of memory out of 3000000
- 27279 multiletter control sequences out of 15000+600000
- 430940 words of font info for 82 fonts, out of 8000000 for 9000
+ 10279 strings out of 478927
+ 168743 string characters out of 2852534
+ 486850 words of memory out of 3000000
+ 27907 multiletter control sequences out of 15000+600000
+ 432624 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,13n,94p,793b,435s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,13n,94p,1232b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/matno/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/matno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex1
 0.pfb><C:/Users/matno/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -572,9 +955,9 @@ Data/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/matno/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/matno/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/matno/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on reportG27.pdf (4 pages, 227859 bytes).
+Output written on reportG27.pdf (7 pages, 1567688 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 293 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
