@@ -52,13 +52,6 @@
 				\item Recurrence Neural Networks
 				\item Facebook Prophet Model
 			\end{enumerate}
-		\end{block}\pause
-		\begin{block}{Hyperparameter Search}
-			All but 3 models were implemented without hyperparameter search:\pause
-			\begin{itemize}
-				\item ARIMA and GARCH $\implies$ don't have hyperparameters
-				\item RNN $\implies$ training time
-			\end{itemize}
 		\end{block}
 	\end{frame}
 	
@@ -78,7 +71,7 @@
 					\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0487}       & \multicolumn{1}{c|}{0.0013}  \\ \hline
 					\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0609}       & \multicolumn{1}{c|}{0.0725}  \\ \hline
 					\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0577}       & \multicolumn{1}{c|}{0.0102}  \\ \hline
-					\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
+					\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{X}  \\ \hline
 					\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.1253}       & \multicolumn{1}{c|}{0.0431}  \\ \hline
 				\end{tabular}
 				\caption{American Train Errors}
@@ -95,7 +88,7 @@
 					\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0539}       & \multicolumn{1}{c|}{0.0099}  \\ \hline
 					\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0730}       & \multicolumn{1}{c|}{0.0965}  \\ \hline
 					\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0648}       & \multicolumn{1}{c|}{0.0050}  \\ \hline
-					\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
+					\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{3.7608}  \\ \hline
 					\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.0920}       & \multicolumn{1}{c|}{0.0758}  \\ \hline
 				\end{tabular}
 				\caption{American Forecast Errors}
@@ -104,67 +97,26 @@
 		
 	\end{frame}
 
+
+
 	\begin{frame}
-	\frametitle{Results USD/CAD}	
+	\frametitle{Results - USD/BRL and USD/CAD}	
 	\begin{table}
 		\parbox{.45\linewidth}{
 			\centering
 			\begin{tabular}{|lll|}
 				\hline
-				\multicolumn{3}{|c|}{USD CAD Series Train RMSE}                                                  \\ \hline
+				\multicolumn{3}{|c|}{USD CAD Series Forecast RMSE}                                                  \\ \hline
 				\multicolumn{1}{|l|}{Method}  & \multicolumn{1}{l|}{Statio} & Non-statio             \\ \hline
-				\multicolumn{1}{|l|}{ARIMA}   & \multicolumn{1}{c|}{0.0001}       & \multicolumn{1}{c|}{X} \\ \hline
-				\multicolumn{1}{|l|}{GARCH}   & \multicolumn{1}{c|}{0.0001}       & \multicolumn{1}{c|}{X} \\ \hline
-				\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0475}       & \multicolumn{1}{c|}{0.0016}  \\ \hline
-				\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0604}       & \multicolumn{1}{c|}{0.0421}  \\ \hline
-				\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0548}       & \multicolumn{1}{c|}{0.0088}  \\ \hline
-				\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
-				\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.1205}       & \multicolumn{1}{c|}{0.0440}  \\ \hline
+				\multicolumn{1}{|l|}{ARIMA}   & \multicolumn{1}{c|}{0.0011}       & \multicolumn{1}{c|}{X} \\ \hline
+				\multicolumn{1}{|l|}{GARCH}   & \multicolumn{1}{c|}{0.0011}       & \multicolumn{1}{c|}{X} \\ \hline
+				\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0547}       & \multicolumn{1}{c|}{0.0079}  \\ \hline
+				\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0586}       & \multicolumn{1}{c|}{0.0463}  \\ \hline
+				\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0538}       & \multicolumn{1}{c|}{0.0043}  \\ \hline
+				\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{0.0267}  \\ \hline
+				\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.1004}       & \multicolumn{1}{c|}{0.1302}  \\ \hline
 			\end{tabular}
-			\caption{USD/CAD Train Errors}
-		}
-		\hfill
-		\parbox{.45\linewidth}{
-			\centering
-		\begin{tabular}{|lll|}
-			\hline
-			\multicolumn{3}{|c|}{USD CAD Series Forecast RMSE}                                                  \\ \hline
-			\multicolumn{1}{|l|}{Method}  & \multicolumn{1}{l|}{Statio} & Non-statio             \\ \hline
-			\multicolumn{1}{|l|}{ARIMA}   & \multicolumn{1}{c|}{0.0011}       & \multicolumn{1}{c|}{X} \\ \hline
-			\multicolumn{1}{|l|}{GARCH}   & \multicolumn{1}{c|}{0.0011}       & \multicolumn{1}{c|}{X} \\ \hline
-			\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0547}       & \multicolumn{1}{c|}{0.0079}  \\ \hline
-			\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0586}       & \multicolumn{1}{c|}{0.0463}  \\ \hline
-			\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0538}       & \multicolumn{1}{c|}{0.0043}  \\ \hline
-			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
-			\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.1004}       & \multicolumn{1}{c|}{0.1302}  \\ \hline
-		\end{tabular}
-			\caption{USD/CAD Forecast Errors}
-		}
-	\end{table}
-	
-\end{frame}
-
-
-	\begin{frame}
-	\frametitle{Results - USD/BRL}
-	The results are summarized in the tables below:
-	
-	\begin{table}
-		\parbox{.45\linewidth}{
-			\centering
-			\begin{tabular}{|lll|}
-				\hline
-				\multicolumn{3}{|c|}{USD BRL Series Train RMSE}                                                  \\ \hline
-				\multicolumn{1}{|l|}{Method}  & \multicolumn{1}{l|}{Statio} & Non-statio             \\ \hline
-				\multicolumn{1}{|l|}{ARIMA}   & \multicolumn{1}{c|}{0.0042}       & \multicolumn{1}{c|}{X} \\ \hline
-				\multicolumn{1}{|l|}{GARCH}   & \multicolumn{1}{c|}{0.0042}       & \multicolumn{1}{c|}{X} \\ \hline
-				\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0357}       & \multicolumn{1}{c|}{0.00087}  \\ \hline
-				\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0448}       & \multicolumn{1}{c|}{0.0734}  \\ \hline
-				\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0420}       & \multicolumn{1}{c|}{0.0066}  \\ \hline
-				\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
-				\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.0895}       & \multicolumn{1}{c|}{0.0377}  \\ \hline
-			\end{tabular}
-			\caption{USD/BRL Train Errors}
+			
 		}
 		\hfill
 		\parbox{.45\linewidth}{
@@ -178,10 +130,10 @@
 				\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0687}       & \multicolumn{1}{c|}{0.0080}  \\ \hline
 				\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0794}       & \multicolumn{1}{c|}{0.1038}  \\ \hline
 				\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0863}       & \multicolumn{1}{c|}{0.0063}  \\ \hline
-				\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
+				\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{0.0944}  \\ \hline
 				\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.1605}       & \multicolumn{1}{c|}{0.0912}  \\ \hline
 			\end{tabular}
-			\caption{USD/BRL Forecast Errors}
+			
 		}
 	\end{table}
 	
@@ -189,7 +141,25 @@
 	
 	\begin{frame}
 		\frametitle{Conclusion}
-		COMPLETE!!!
+		We can list some interesting conclusions with respect to the RMSE displayed:\pause
+		\begin{enumerate}
+			\item For stationary series, the classic approach produces good results when compared to \textit{machine learning} models\pause
+			\item Random Forest produced some of the smallest error rates for all series, stationary or not.\pause
+			\item The models for non stationary series produced better errors than the ones for stationary series.\pause
+			\item MLP produced the \textbf{best forecast} for all 3 non-stationary series.\pause
+			\item The Prophet did not perform well for any of the series.
+		\end{enumerate}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Final Conclusion}
+		The goal of this project was to answer the following question:
+		
+		\textbf{Are Neural Networks the best model for time series forecasting?}
+		
+		The answer is: \pause \textbf{Not necessarily!}
+		
+		
 	\end{frame}
 	
 	\begin{frame}
