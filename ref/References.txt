@@ -17,3 +17,4 @@ Internet:
 	https://visualstudiomagazine.com/articles/2018/02/02/neural-network-time-series.aspx
 	https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/
 	https://towardsdatascience.com/a-quick-deep-learning-recipe-time-series-forecasting-with-keras-in-python-f759923ba64
+	https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21
