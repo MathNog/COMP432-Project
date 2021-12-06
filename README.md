@@ -1,6 +1,6 @@
 # COMP432_Project - Concordia University - Fall 2021
 
-## Authors: Matheus Nogueira and Zijian Wang
+## Authors: Matheus Nogueira and Zijian Wang - G27
 
 ## Professor: Andrew Delong
 
@@ -14,11 +14,13 @@ The goal of this project is to provide Time Series Forecasting Methdods and comp
  - American Dolar x Canadian Dolar (Weekly)
  - American Dolar x Brazilian Real (Weekly)
 
+All of the series were obtained at __[YahhoFinance]{finance.yahoo.com/}__
+
 In this project we have implemented different models for Time Series Forecast, such as **ARIMA/GARCH**, **Random Forest Regressor**, **Support Vector Machine Regressor**, **Multi Layer Perceptron Neural Networks**, **Recurrence Neural Networks** and **Prophet**.
 
 ### Repository Organization
 
-This repository is divided into differente directories.
+This project is divided into differente directories:
 
  - code: directory with the jupyter notebooks created for the project
    - SeriesAnalysis.ipynb: jupyter notebook for time series analysis that are necessary for each model implemented in other notebooks. **This must be the first notebook to be looked at!**
@@ -33,6 +35,22 @@ This repository is divided into differente directories.
  - img: images created during the project
  - data: datasets collected and used as input for all methods implemented
 
+### Important Information:
+
+The first notebook to be llok at is **SeriesAnalysis.ipynb**.
+
+Although the order of the remaining notebooks is not crucial, we suggest the following: ARIMA, ARIMA/GARCH, RF, SVM, MLP, RNN, Prophet.
+
+Be aware that training some of the models can take a lot of time:
+ - MLP -> over 30 minutes for each training cell (there are 2)
+ - RF and SVM -> over 15/20 minutes for each training cell (there are 2)
+ - RNN -> over X minutes for each training cell
+ - Prophet -> over 20 minutes for each training cell (there are 2)
+
+GPU not required
+
+The notebooks are all full of comments and markdowns in order to make each one *independent* from the others and fully understandable by itself. That means all of them follow almost exactly the same structure. We prioritized understanding creating some redundancy.
+
 ### Packages needed
 
  - __[pandas]{https://anaconda.org/anaconda/pandas}__
@@ -42,3 +60,5 @@ This repository is divided into differente directories.
  - __[arch]{https://anaconda.org/bashtage/arch}__
  - __[sklearn]{https://anaconda.org/anaconda/scikit-learn}__
  - __[fbprophet]{https://anaconda.org/conda-forge/fbprophet}__
+
+
