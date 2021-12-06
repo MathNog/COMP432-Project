@@ -51,6 +51,8 @@ GPU not required
 
 The notebooks are all full of comments and markdowns in order to make each one *independent* from the others and fully understandable by itself. That means all of them follow almost exactly the same structure. We prioritized understanding creating some redundancy.
 
+Each notebook indicates the bibliography that was used as reference.
+
 ### Packages needed
 
  - __[pandas]{https://anaconda.org/anaconda/pandas}__
