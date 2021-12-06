@@ -104,15 +104,15 @@
 	
 	As known, a Random Forest is an ensemble method implemented with a collection of Decision Trees \cite{bishop2006pattern}. Although known better for classification, Decision Trees, and Random Forest, can be used for regression problems as well.
 	
-	For a regression problem, each Decision Tree is constructed in a similar way that it would be in a classification problem. Given an tabular input shaped as a \textit{moving window}, each feature is used to determine the best split based on the target value $y_{t+1}$. Once the best splits are determined and the tree is constructed, given a new input, the value of the prediction will be the average of the leaf values this new input reaches.
+	For a regression problem, each Decision Tree is constructed in a similar way that it would be in a classification problem. Given an tabular input shaped as a \textit{moving window}, each feature is used to determine the best split based on the target value $y_{t+1}$. Once the best splits are determined and the tree is constructed, given a new input, the value of the prediction will be the average of the leaf values this new input reaches. See \cite{decisiontreeregression} and \cite{randomforestregression}.
 	
 	With respect to the moving window approach, as well as the other input format needed for each model, see the subsection \textbf{Input Formats} in the end of the model's introduction. \\
 	
-	This model, as well as MLP, SVM AND Prophet were implemented with hyperparameters search. RNN were not because of the long training time and ARIMA/GARCH do not have hyperparameters.
+	This model, as well as MLP, SVM AND Prophet were implemented with hyperparameters search. RNN were not because of the long training time and ARIMA/GARCH do not have hyperparameters.\\
 	
 	\textbf{Support Vector Machines} \\
 	
-	SVMs for regression are implemented in a analogous way to classification SVMs. The  regressor tries to fit  the best line \textit{hyperplane} within a predefined threshold error value \textit{decision boundaries}. Instead of using the hyperplane to separate different classes, the \textit{SVM Regressor} uses it to fit the behaviour of the time series. 
+	SVMs for regression are implemented in a analogous way to classification SVMs. The  regressor tries to fit  the best line \textit{hyperplane} within a predefined threshold error value \textit{decision boundaries}. Instead of using the hyperplane to separate different classes, the \textit{SVM Regressor} uses it to fit the behaviour of the time series. See \cite{svmregression}. \\
 	
 	
 	\textbf{Multi Layer Perceptrons}\\
@@ -121,16 +121,17 @@
 	
 	\textbf{Recurrent Neural Networks}\\
 	
-	A recurrent neural network (RNN) is a type of artificial neural network commonly used in speech recognition and natural language processing. Recurrent neural networks recognize data's sequential characteristics and use patterns to predict the next likely scenario. RNNs are distinct from other types of artificial neural networks because they use feedback loops to process a sequence of data that that informs the final output. These feedback loops allow information to persist. 
-	
-	The RNN processes the sequence of vectors one by one. While processing, it passes the previous hidden state to the next step of the sequence. The hidden states act as the neural network’s memory, which holds information on previous data the network has seen before. Then the input and previous hidden state are combined to form a vector. The vector then goes through the activation which decides what to do with the data, and the output is the new hidden state.
-	
-	Long short-term memory (LSTM) is an artificial recurrent neural network (RNN) architecture. LSTMs were created as the solution to vanishing gradient problem due to short-term memory. In this project, we used a Vanilla LSTM, which is an LSTM model that has a single hidden layer of LSTM units, and an output layer used to get one prediction value yt+1. The ni is the number of the time steps for one LSTM cell/unit, and nf is the is the number of features which is 1 since we are working with uni-variate time series. Choosing a right value of ni would avoid you from over fitting with short amount of data and getting explosive predict value. u is the unit number of LSTM and e is the epochs. The bigger the u and e are, and the more data are used to train and fit model. To demonstrate the model, a batch which contains the value of the end of the training data series which has the same length with test series are used to predict the first value in the test series. Then the prediction is added into the end of current batch, and the first value was removed. Keep doing this until the batch is full of predictions. Then get the error by comparing the test series and the prediction series.\\
+A recurrent neural network(RNN) is a type of artificial neural network commonly used in speech recognition and natural language processing. Recurrent neural networks recognize data's sequential characteristics and use patterns to predict the next likely scenario. RNNs are distinct from other types of artificial neural networks because they use feedback loops to process a sequence of data that that informs the final output. These feedback loops allow information to persist. \\
+
+The RNN processes the sequence of vectors one by one. While processing, it passes the previous hidden state to the next step of the sequence. The hidden states act as the neural network’s memory, which holds information on previous data the network has seen before. Then the input and previous hidden state are combined to form a vector. The vector then goes through the activation which decides what to do with the data, and the output is the new hidden state.\\
+
+Long short-term memory (LSTM) is an artificial recurrent neural network(RNN) architecture. LSTMs were created as the solution to vanishing gradient problem due to short-term memory. In this project, we used a Vanilla LSTM, which is an LSTM model that has a single hidden layer of LSTM units, and an output layer used to get one prediction value yt+1. The ni is the number of the time steps for one LSTM cell/unit, and nf is the is the number of features which is 1 since we are working with univariate time series. Choosing a right value of ni would avoid you from overfitting with short amount of data and getting explosive predict value. u is the unit number of LSTM and e is the epochs. The bigger the u and e are, and the more data are used to train and fit model. To demonstrate the model, a batch which contains the value of the end of the training data series which has the same length with test series are used to predict the first value in the test series. Then the prediction is added into the end of current batch and also into an array to store all the prediction, and the first value was removed. The batch will be full of predictions, and the information in the batch will be still used to get new predictions until the array was the same length as the test series. Then get the error by comparing the test series and the prediction array. See\cite{abiodun2018state} and \cite{hochreiter1997long}.\\
+
 	
 	
 	\textbf{Prophet}\\
 	
-	The Prophet is a Facebook Open Source project for time series predictions based on an additive model that tries to sum together 3 different functions that tries to model trend $g(t)$, seasonality $s(t)$ and holiday/weekend effects $h(t)$. See \cite{taylor2018forecasting}.
+	The Prophet is a Facebook Open Source project for time series predictions based on an additive model that tries to sum together 3 different functions that tries to model trend $g(t)$, seasonality $s(t)$ and holiday/weekend effects $h(t)$. See \cite{taylor2018forecasting} and \cite{prophetwebsite}.
 	
 	\begin{equation}
 		y(t)=g(t)+s(t)+h(t)+\epsilon_t
@@ -176,7 +177,6 @@
 	
 	Each row is a window of the time series and the last column will be used as "target" for the supervised learning algorithms. Note that, from row $i$ to row $i+1$ thee window is shifted one unit to the right. The $Y_{t+1}$ column is used as target while the others are passed as features/inputs.\\
 	
-	\newpage
 	\textbf{RMSE Tables}
 	
 	\begin{table}[h]\label{table:trainingRMSE}
@@ -190,7 +190,7 @@
 			\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0487}       & \multicolumn{1}{c|}{0.0013}  \\ \hline
 			\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0609}       & \multicolumn{1}{c|}{0.0725}  \\ \hline
 			\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0577}       & \multicolumn{1}{c|}{0.0102}  \\ \hline
-			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
+			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{X}  \\ \hline
 			\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.1253}       & \multicolumn{1}{c|}{0.0431}  \\ \hline
 		\end{tabular}
 	\end{table}
@@ -207,7 +207,7 @@
 			\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0539}       & \multicolumn{1}{c|}{0.0099}  \\ \hline
 			\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0730}       & \multicolumn{1}{c|}{0.0965}  \\ \hline
 			\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0648}       & \multicolumn{1}{c|}{0.0050}  \\ \hline
-			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
+			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{3.7608}  \\ \hline
 			\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.0920}       & \multicolumn{1}{c|}{0.0758}  \\ \hline
 		\end{tabular}
 	\end{table}
@@ -216,7 +216,20 @@
 	%------------------------------------------------------------------------
 	\section{Conclusions}
 	
-	\textbf{COMPLETE!!!!}
+	Once the RMSE for all of the models and series are computed and compared, there are, at least, five conclusions one could make:
+	\begin{enumerate}
+		\item For stationary series, the classic approach produces good results when compared to \textit{machine learning} models
+		\item Random Forest produced some of the smallest error rates for all series, stationary or not.
+		\item The models for non stationary series produced better errors than the ones for stationary series.
+		\item MLP produced the \textbf{best forecast} for all 3 non-stationary series.
+		\item The Prophet did not perform well for any of the series.
+	\end{enumerate}
+
+	There may be a reason for the results of the Prophet: the series chosen for this project have weekly frequency and do not have the holidays table as well, so the additive model that Prophet implements may not have being adequate for this time series.
+	
+	The RNN results were specially interesting however, once again there might be a reason: since the hyperparameter search was implemented by \textit{hard coding} for this model and, because of the enormous amount of training time, there is no guarantee that the best, or even a good, choice of hyperparameters was found.
+	
+	At last, there is enough evidence to answer the main question of this project: \textbf{are Neural Networks the best model for time series forecasting?}. Not necessarily! The MLP has the best results for non stationary series, but the Random Forest displayed comparable RMSE and ARIMA/GARCH, for two of the stationary series, have also shown great errors.
 	
 	{\small
 		\bibliographystyle{cvpr_bibstyle}
@@ -255,7 +268,7 @@
 			\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0475}       & \multicolumn{1}{c|}{0.0016}  \\ \hline
 			\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0604}       & \multicolumn{1}{c|}{0.0421}  \\ \hline
 			\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0548}       & \multicolumn{1}{c|}{0.0088}  \\ \hline
-			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
+			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{X}  \\ \hline
 			\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.1205}       & \multicolumn{1}{c|}{0.0440}  \\ \hline
 		\end{tabular}
 	\end{table}
@@ -272,7 +285,7 @@
 			\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0547}       & \multicolumn{1}{c|}{0.0079}  \\ \hline
 			\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0586}       & \multicolumn{1}{c|}{0.0463}  \\ \hline
 			\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0538}       & \multicolumn{1}{c|}{0.0043}  \\ \hline
-			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
+			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{0.0267}  \\ \hline
 			\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.1004}       & \multicolumn{1}{c|}{0.1302}  \\ \hline
 		\end{tabular}
 	\end{table}
@@ -288,7 +301,7 @@
 			\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0357}       & \multicolumn{1}{c|}{0.00087}  \\ \hline
 			\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0448}       & \multicolumn{1}{c|}{0.0734}  \\ \hline
 			\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0420}       & \multicolumn{1}{c|}{0.0066}  \\ \hline
-			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
+			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{X}  \\ \hline
 			\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.0895}       & \multicolumn{1}{c|}{0.0377}  \\ \hline
 		\end{tabular}
 	\end{table}
@@ -305,13 +318,11 @@
 			\multicolumn{1}{|l|}{RF}      & \multicolumn{1}{c|}{0.0687}       & \multicolumn{1}{c|}{0.0080}  \\ \hline
 			\multicolumn{1}{|l|}{SVM}     & \multicolumn{1}{l|}{0.0794}       & \multicolumn{1}{c|}{0.1038}  \\ \hline
 			\multicolumn{1}{|l|}{MLP}     & \multicolumn{1}{l|}{0.0863}       & \multicolumn{1}{c|}{0.0063}  \\ \hline
-			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{}       & \multicolumn{1}{c|}{}  \\ \hline
+			\multicolumn{1}{|l|}{RNN}     & \multicolumn{1}{l|}{X}       & \multicolumn{1}{c|}{0.0944}  \\ \hline
 			\multicolumn{1}{|l|}{Prophet} & \multicolumn{1}{l|}{0.1605}       & \multicolumn{1}{c|}{0.0912}  \\ \hline
 		\end{tabular}
 	\end{table}
 	
-	
-	\textbf{American Airlines}
 	
 	\begin{figure}[h]
 		\centering
@@ -333,7 +344,7 @@
 		\includegraphics[width=0.45\linewidth]{../img/RandomForest/american_diff_for}
 		\includegraphics[width=0.45\linewidth]{../img/SVM/american_diff_for}
 		\includegraphics[width=0.45\linewidth]{../img/MLP/american_diff_for}
-		%\includegraphics[width=0.45\linewidth]{../img/RNN/american_diff_training}
+		%\includegraphics[width=0.45\linewidth]{../img/RNN/american_diff_for}
 		\includegraphics[width=0.45\linewidth]{../img/Prophet/american_diff_for}
 		\caption{American Stationary Series Forecast}
 		\label{fig:americandiffforecast}
@@ -355,14 +366,13 @@
 		\includegraphics[width=0.45\linewidth]{../img/RandomForest/american_for}
 		\includegraphics[width=0.45\linewidth]{../img/SVM/american_for}
 		\includegraphics[width=0.45\linewidth]{../img/MLP/american_for}
-		%\includegraphics[width=0.45\linewidth]{../img/RNN/american_diff_training}
+		\includegraphics[width=0.45\linewidth]{../img/RNN/american_for}
 		\includegraphics[width=0.45\linewidth]{../img/Prophet/american_for}
 		\caption{American Original Series Forecast}
 		\label{fig:americanforecast}
 	\end{figure}
 	
-	
-	\textbf{USD/CAD Currency}
+
 	
 	\begin{figure}[h]
 		\centering
@@ -406,13 +416,12 @@
 		\includegraphics[width=0.45\linewidth]{../img/RandomForest/usd_cad_for}
 		\includegraphics[width=0.45\linewidth]{../img/SVM/usd_cad_for}
 		\includegraphics[width=0.45\linewidth]{../img/MLP/usd_cad_for}
-		%\includegraphics[width=0.45\linewidth]{../img/RNN/usd_cad_for}
+		\includegraphics[width=0.45\linewidth]{../img/RNN/usd_cad_for}
 		\includegraphics[width=0.45\linewidth]{../img/Prophet/usd_cad_for}
 		\caption{USD/CAD Original Series Forecast}
 		\label{fig:usd_cadforecast}
 	\end{figure}
 	
-	\textbf{USD/BRL Currency}
 	
 	\begin{figure}[h]
 		\centering
@@ -456,7 +465,7 @@
 		\includegraphics[width=0.45\linewidth]{../img/RandomForest/usd_brl_for}
 		\includegraphics[width=0.45\linewidth]{../img/SVM/usd_brl_for}
 		\includegraphics[width=0.45\linewidth]{../img/MLP/usd_brl_for}
-		%\includegraphics[width=0.45\linewidth]{../img/RNN/usd_brl_for}
+		\includegraphics[width=0.45\linewidth]{../img/RNN/usd_brl_for}
 		\includegraphics[width=0.45\linewidth]{../img/Prophet/usd_brl_for}
 		\caption{USD/BRL Original Series Forecast}
 		\label{fig:usd_brlforecast}

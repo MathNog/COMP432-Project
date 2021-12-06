@@ -1,9 +1,38 @@
 \begin{thebibliography}{1}\itemsep=-1pt
 
+\bibitem{abiodun2018state}
+Oludare~Isaac Abiodun, Aman Jantan, Abiodun~Esther Omolara, Kemi~Victoria Dada,
+  Nachaat~AbdElatif Mohamed, and Humaira Arshad.
+\newblock State-of-the-art in artificial neural network applications: A survey.
+\newblock {\em Heliyon}, 4(11):e00938, 2018.
+
 \bibitem{bishop2006pattern}
 Christopher~M Bishop.
 \newblock {\em Pattern Recognition and Machine Learning}.
 \newblock Springer, 2006.
+
+\bibitem{hochreiter1997long}
+Sepp Hochreiter and J{\"u}rgen Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780, 1997.
+
+\bibitem{decisiontreeregression}
+Gurucharan~M K.
+\newblock Machine learning basics: Decision tree regression.
+
+\bibitem{randomforestregression}
+Gurucharan~M K.
+\newblock Machine learning basics: Random forest regression.
+
+\bibitem{svmregression}
+Priya Pedamkar.
+\newblock Support vector regression.
+\newblock \url{https://www.educba.com/support-vector-regression/}, 2020.
+
+\bibitem{prophetwebsite}
+Facebook~Prophet Project.
+\newblock Prophet: Forecasting at scale.
+\newblock \url{https://facebook.github.io/prophet/}.
 
 \bibitem{taylor2018forecasting}
 Sean~J Taylor and Benjamin Letham.
